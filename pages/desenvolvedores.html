@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedores - Trash Emperors</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        silkscreen: ['Silkscreen', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#BFE8E2] min-h-screen">
+    <header class="bg-[#1C4A42] h-14 shadow-md">
+        <div class="flex justify-center items-center h-full">
+            <img src="/assets/img/logo.png" alt="Logo Trash Emperors" class="w-15 h-[8rem] rounded-lg">
+        </div>
+    </header>
+
+    <div class="flex items-center px-8 pt-6">
+        <a href="/pages/portal.html" class="flex items-center gap-2 font-silkscreen text-xs text-[#1C4A42]">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 rotate-180" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 12h15" />
+            </svg>
+
+            VOLTAR
+        </a>
+    </div>
+
+    <div class="flex justify-center mt-6 mb-10">
+
+        <div class="w-[90%] min-h-[650px] bg-[#F3ECDD] rounded-xl shadow-lg">
+            <div class="flex justify-center mt-10">
+                <div class="bg-[#6B6662] px-10 py-3 rounded-md shadow-md">
+                    <h1 class="font-silkscreen text-white text-sm tracking-[4px] uppercase">
+                        Desenvolvedores
+                    </h1>
+                </div>
+            </div>
+            <p class="text-center mt-6 font-silkscreen text-xs text-[#1C4A42] px-6">
+                Equipe responsável pela criação do Trash Emperors
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=js&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 1</h2>
+                    <p class="text-xs text-gray-600">JOELSON DE SOUZA</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=da&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 2</h2>
+                    <p class="text-xs text-gray-600">DANILO DE ANDRADE</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=lg&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 3</h2>
+                    <p class="text-xs text-gray-600">LUCAS GABRIEL</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=bc&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 4</h2>
+                    <p class="text-xs text-gray-600">BRUNIELLY CAMPOS</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=ka&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 5</h2>
+                    <p class="text-xs text-gray-600">KALINE ANDRIELE</p>
+                </div>
+
+                <div class="bg-white rounded-xl p-5 shadow-md text-center">
+                    <img src="https://ui-avatars.com/api/?name=bc&background=1C4A42&color=F3ECDD&size=128"
+                        class="w-20 h-20 mx-auto rounded-full mb-3">
+                    <h2 class="font-silkscreen text-sm text-[#1C4A42]">Dev 6</h2>
+                    <p class="text-xs text-gray-600">BRUNA CORDEIRO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
