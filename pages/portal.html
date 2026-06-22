@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Trash Emperors</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        silkscreen: ['Silkscreen', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#BFE8E2] min-h-screen">
+
+    <!-- HEADER -->
+    <header class="bg-[#1C4A42] h-14 shadow-md">
+        <div class="flex justify-center items-center h-full">
+            <img src="/assets/img/logo.png" alt="Logo Trash Emperors" class="w-15 h-[8rem] rounded-lg">
+        </div>
+    </header>
+
+    <!-- TÍTULO -->
+    <section class="flex justify-center mt-5">
+        <h1 class="font-silkscreen text-[55px] text-[#F4E36D] tracking-widest
+                   drop-shadow-[4px_4px_0px_#2A4D4A] uppercase">
+            Trash Emperors
+        </h1>
+    </section>
+
+    <section class="flex justify-center mt-4">
+        <div class="w-[82%] min-h-[460px]
+               bg-[#F4F4F4]
+               border-[3px]
+               border-[#36554E]
+               rounded-2xl
+               shadow-[0_10px_20px_rgba(0,0,0,0.25)]
+               flex items-center justify-center">
+
+            <div class="w-full flex flex-wrap lg:flex-nowrap justify-around items-center gap-10 p-8">
+                <div class="w-full max-w-[650px]
+                       min-h-[240px]
+                       bg-[#C7D5F3]
+                       border-[3px]
+                       border-[#7D9BEA]
+                       rounded-xl
+                       shadow-lg
+                       flex items-center
+                       px-8 py-6">
+
+                    <div class="flex-shrink-0">
+                        <img src="/assets/img/truck-play.png" alt="caminhão" class="w-32 md:w-40">
+                    </div>
+
+                    <div class="flex-1">
+                        <p class="font-silkscreen text-sm leading-7 text-center">
+                            Gerencie rotas desafiadoras
+                            e domine a logística urbana
+                            ao volante do caminhão de
+                            coleta. Um teste de agilidade
+                            e reflexo onde cada
+                            quarteirão limpo aproxima
+                            você da pontuação máxima.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="flex justify-center">
+                    <button class="font-silkscreen
+                           bg-white
+                           text-[#9BB0E9]
+                           border-[3px]
+                           border-[#8BA3E9]
+                           rounded-xl
+                           px-8 py-3
+                           shadow-md
+                           hover:scale-105
+                           transition">
+
+                        Jogar Trash Emperors
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="mt-24">
+        <div class="flex justify-center gap-12">
+
+            <button class="font-silkscreen text-white text-sm
+                       bg-[#9FB4EC]
+                       border-[3px]
+                       border-white
+                       rounded-xl
+                       px-4 py-2
+                       shadow-lg">
+                Desenvolvedores do Jogo
+            </button>
+
+            <a href="/pages/historia.html" class="font-silkscreen text-white text-sm
+          bg-[#9FB4EC]
+          border-[3px]
+          border-white
+          rounded-xl
+          px-8 py-2
+          shadow-lg 
+          text-center">
+                História do jogo
+            </a>
+
+            <a href="/pages/notas-atualizacao/notas-index.html" class="font-silkscreen text-white text-sm
+                       bg-[#9FB4EC]
+                       border-[3px]
+                       border-white
+                       rounded-xl
+                       px-8 py-2
+                       shadow-lg
+                       text-center">
+                Atualizações do jogo
+            </a>
+
+        </div>
+    </section>
+
+    <section class="flex justify-center mt-10 mb-10">
+
+        <div class="w-[82%]
+                   h-[180px]
+                   bg-[#F4F4F4]
+                   border-[3px]
+                   border-[#36554E]
+                   rounded-2xl
+                   shadow-[0_10px_20px_rgba(0,0,0,0.25)]">
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
